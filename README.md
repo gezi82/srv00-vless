@@ -3,8 +3,14 @@
 在 Serv00 免费托管网站上部署 vless 节点
 
 ## 部署教程
+用编辑器打开 index.js 文件，修改第 7 行和第 8 行画红圈的位置。第 7 行修改为自己的 UUID，第 8 行修改为第 8 步分配的端口号
 
-待更新
+待更新打开 start.sh 文件，然后在第 2 行和第 3 行修改哪吒面板的登陆地址、端口号和通信密钥
+
+将 index.js、start.sh 和 package.json 上传至 domains/你的域名 文件夹中
+
+打开 SSH 终端，输入以下命令运行代码程序，如出现节点信息即可代表运行成功
+cd domains/你的域名 && npm install ws && screen node index.js
 
 ## 免责声明
 
