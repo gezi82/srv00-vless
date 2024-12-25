@@ -10,6 +10,7 @@
 将 index.js、start.sh 和 package.json 上传至 domains/你的域名 文件夹中
 
 打开 SSH 终端，输入以下命令运行代码程序，如出现节点信息即可代表运行成功
+
 cd domains/你的域名 && npm install ws && screen node index.js
 
 ## 免责声明
